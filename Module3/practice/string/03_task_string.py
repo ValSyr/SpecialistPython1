@@ -1,3 +1,8 @@
 # Подсчитать количество букв «а» во введенной строке
 
-# TODO: your code here
+
+text = "Коты лучше собааааааак"
+
+new_text = text.count("а")
+
+print(new_text)
